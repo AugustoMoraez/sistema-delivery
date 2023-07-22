@@ -27,6 +27,10 @@ export const Logo = styled.p`
     font-size: 40px;
     color:#fff;
     cursor: pointer;
+    @media (max-width:600px) {
+        margin-left: 0;
+        margin-bottom:10px ;
+    }
 `;
 
 export const Img = styled.div`
@@ -113,5 +117,6 @@ export const CartButton = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor:pointer;
 
 `;
