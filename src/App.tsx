@@ -1,12 +1,10 @@
 import { Container } from "./AppStyle";
-import { Header } from "./Components/header";
-import { Banner } from "./Components/banner";
+import { MainRoutes } from "./routes/routes";
 
 const App = () => {
   return (
     <Container>
-      <Header/>
-      <Banner/>
+      <MainRoutes/>    
     </Container>
   )
 }

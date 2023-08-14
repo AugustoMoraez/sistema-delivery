@@ -16,7 +16,10 @@ export const Header = () => {
                 <Navigate>
                     <OptionsMenu>
                         <Option>
-                            <a href="/">Pizzas</a>
+                            <a href="/">Conta</a>
+                        </Option>
+                        <Option>
+                            <a href="/bebidas">Pizzas</a>
                         </Option>
                         <Option>
                             <a href="/bebidas">Bebidas</a>
